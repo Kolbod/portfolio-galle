@@ -1,0 +1,17 @@
+
+
+.demo-item{
+	margin-right: 5px!important;
+	display: inline-block!important;
+		position: relative!important;
+	right: 4vw;
+	float: right;
+}
+.demo-item:before{
+	display: none;
+}
+.demo-item.big{
+	width: 15px;
+	height: 17px;
+
+}
