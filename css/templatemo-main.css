@@ -410,7 +410,10 @@ nav a:hover::before {
 	background-color: transparent;
 }
 
+.glow{
+text-shadow: 0px 0px 12px #fff;
 
+}
 
 .second-content {
   overflow-y: hidden;
@@ -420,8 +423,8 @@ nav a:hover::before {
 }
 
 .espacio-dos {
-padding-top: 1vw;
-padding-bottom: 1vw;
+padding-top: 0.5vw;
+padding-bottom: 0.5vw;
 padding-left: 2vw;
 padding-right: 2vw;
 
@@ -487,12 +490,7 @@ padding-top: 150px;
 
 }
 
-.second-content .right-image img {
-	max-width: 100%;
-	min-width: 100%;
-	overflow: hidden;
-	float: right;
-}
+
 
 .second-content .left-content {
 	  padding-left: 3vw;
@@ -502,6 +500,7 @@ padding-top: 150px;
 
 .second-content i {
 	  font-size: 6em;
+    padding-bottom: 0.7vw;
     color: white;
     margin: auto;
     width: 82%;

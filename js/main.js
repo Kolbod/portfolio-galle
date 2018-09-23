@@ -80,7 +80,17 @@ jQuery(document).ready(function($) {
             }
         });
 
-				$('.gallery').flashy({
+				$('.gallerya').flashy({
+					prevShowClass: 'fx-bounceInLeft',
+					nextShowClass: 'fx-bounceInRight',
+					prevHideClass: 'fx-bounceOutRight',
+					nextHideClass: 'fx-bounceOutLeft',
+					gallerySwipeMobile: true,
+					showClass: 'fx-fadeIn',
+					hideClass: 'fx-fadeOut'
+				});
+
+				$('.galleryb').flashy({
 					prevShowClass: 'fx-bounceInLeft',
 					nextShowClass: 'fx-bounceInRight',
 					prevHideClass: 'fx-bounceOutRight',
