@@ -15,7 +15,7 @@ html {
 	justify-content: center;
 }
 a.gallery {
-	
+
 }
 a.gallery:hover {
 	transition:all .3s;
@@ -42,6 +42,53 @@ a.custom:hover {
 	padding:15px;
 	text-align:left;
 }
+/*===========================================
+ * owl nuevo
+ *===========================================*/
+
+
+
+ /*-----------------------------------------------------------------------------------*/
+ /*   Services
+ /*-----------------------------------------------------------------------------------*/
+
+ #services {
+   position: relative;
+   padding-bottom: 80px;
+ }
+
+ .owl-item {
+   float: left;
+ }
+ .services-block span {
+   position: relative;
+   display: block;
+ }
+
+ .services-block .separator {
+   margin: 0;
+   font-size: 13px;
+   line-height: 22px;
+ }
+
+
+
+ .services-carousel  .owl-stage-outer {
+   overflow: hidden;
+ }
+
+
+
+ .owl-nav {
+   display: none;
+ }
+
+
+/* submenu del skill *
+
+
+
+
 /*===========================================
  * Media
  *===========================================*/
