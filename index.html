@@ -35,7 +35,7 @@
 
 
 
-<body>
+<body data-vide-bg="video/do">
 
     <div class="sequence">
 
@@ -58,7 +58,7 @@
 
         <li><a class="trigger" href="#1"><i class="fa fa-home"></i> <em>About Me</em></a></li>
         <li><a class="trigger" href="#2"><i class="fa fa-image"></i> <em>Portfolio</em></a></li>
-        <li><a class="trigger" href="#3"><i class="fas fa-graduation-cap"></i> <em>Formation</em></a></li>
+        <li><a class="trigger formacion" href="#3"><i class="fas fa-graduation-cap"></i> <em>Formation</em></a></li>
         <li><a class="trigger" href="#4"><i class="fas fa-pencil-alt"></i> <em>Students</em></a></li>
         <li><a class="trigger" href="#5"><i class="fas fa-brain "></i> <em>Skills</em></a></li>
 
@@ -77,14 +77,23 @@
                         <div class="botonesPP">
                       <div class="main-btn wow fadeInRight" data-wow-delay="3.7s"><a href="#2">View More</a></div>
                       <div class="tooltipo">
-                      <div class="fb-btns wow fadeInRight" data-wow-delay="4.1s"><a href="skype:npablow?add"><i class="fab fa-skype"></i> Skype me</a></div>
+                      <div class="fb-btns wow fadeInRight" data-wow-delay="4.1s"><a href="skype:npablow?add"><i class="fab fa-skype"></i></a></div>
                       <p class="tooltiptextos">Add to skype</p></div>
 
                       <div class="tooltipo">
-                      <div class="fb-btn wow fadeInRight" onclick="myFunction()"  data-wow-delay="4.5s"><a><i class="far fa-envelope"></i> npablow@gmail.com</a></div>
-                      <p class="tooltiptexto"><remover>Copy to clipboard</remover></p>
-                    </div></div>
+                      <div class="fb-btns wow fadeInRight" data-wow-delay="4.3s"><a href="https://www.linkedin.com/in/pablo-carballo/"><i class="fab fa-linkedin"></i></a></div>
+                      <p class="tooltiptextos">Open Linkedin</p></div>
+
+                      <div class="tooltipo">
+                      <div class="fb-btn wow fadeInRight" onclick="myFunction()"  data-wow-delay="4.5s"><a><i class="far fa-envelope"></i></a></div>
+                      <p class="tooltiptexto"><remover>Copy mail to clipboard</remover></p>
+                    </div>
+                    <div class="tooltipo">
+                    <div class="fb-btns wow fadeInRight" data-wow-delay="4.6s"><a src="js" download="datepicker.js"><i class="far fa-file-alt"></i></a></div>
+                    <p class="tooltiptextos">download cv</p></div>
+                  </div>
                       <input style="position: absolute; left: -9999px;" type="text" value="npablow@gmail.com" id="myInput">
+
 
 
 
@@ -96,7 +105,7 @@
           </div>
 
           <!-- Portfolio -->
-          <div class="slide" id="2"  data-vide-bg="video/tre">
+          <div class="slide" id="2"  data-vide-bg="video/do">
             <div class="content fourth-content">
                 <div class="container-fluid">
                     <div class="row">
@@ -213,6 +222,22 @@
                                   </div>
                                 </div>
                               </div>
+
+                              <div class="col-md-4 col-sm-6">
+                                <div class="item">
+                                  <div class="thumb">
+                                    <a class="gallerya" data-flashy-type="video" href="https://youtu.be/rA5KTcRN7as"><img src="img/mocapsmall.jpg">
+                                      <div class="hover-effect">
+                                        <div class="hover-content">
+                                          <h2>Mocap Reel</h2>
+                                            <p>Short personal Motion Capture Reel</p>
+                                        </div>
+                                      </div>
+                                    </a>
+
+                                  </div>
+                                </div>
+                              </div>
                               <div class="col-md-4 col-sm-6">
                                 <div class="item">
                                   <div class="thumb">
@@ -232,8 +257,10 @@
                             </div>
                           </div>
 
+
+
           <!-- Formacion -->
-          <div class="slide" id="3" data-vide-bg="video/do">
+          <div class="slide" id="3" >
             <div class="content third-content">
                 <div class="container-fluid">
                     <div class="col-md-12">
@@ -271,7 +298,7 @@
 
 
           <!-- Alumnos -->
-          <div class="slide" id="4" data-vide-bg="video/tre">
+          <div class="slide" id="4">
             <div class="content fourth-content">
                 <div class="container-fluid">
                     <div class="row">
@@ -703,7 +730,38 @@
 
       }
 
+      $(".formacion").on('click', function(){
+        var secForm = setTimeout(myTimerB, 800);
+        var secForm = setTimeout(myTimerc, 1000);
+        var secForm = setTimeout(myTimerD, 1200);
+        var secForm = setTimeout(myTimerE, 1400);
+        var secForm = setTimeout(myTimerF, 1600);
+        var secForm = setTimeout(myTimerG, 1800);
+        var secForm = setTimeout(myTimerH, 2200);
 
+      $(".exp-est-img").attr('src',"img/huergo.png");
+        function myTimerB() {
+        $(".exp-est-img").attr('src',"img/repa.png");
+      }
+        function myTimerc() {
+        $(".exp-est-img").attr('src',"img/dv.png");
+      }
+        function myTimerD() {
+        $(".exp-est-img").attr('src',"img/lime.png");
+      }
+        function myTimerE() {
+        $(".exp-est-img").attr('src',"img/mocap.png");
+      }
+        function myTimerF() {
+        $(".exp-est-img").attr('src',"img/freelo.png");
+      }
+      function myTimerG() {
+        $(".exp-est-img").attr('src',"img/exchange.png");
+      }
+      function myTimerH() {
+        $(".exp-est-img").attr('src',"img/wire.png");
+      }
+              });
 
 
 
@@ -786,7 +844,7 @@ function myFunction() {
 
 $(".fb-btn").mouseover(function(){
   $("remover").remove("remover");
-  $(".tooltiptexto").append("<remover>Copy to clipboard</remover>");
+  $(".tooltiptexto").append("<remover>Copy mail to clipboard</remover>");
         });
 
         $(".fb-btn").on('click', function(){
