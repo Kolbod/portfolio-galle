@@ -412,6 +412,110 @@ nav a:hover::before {
 	background-color: transparent;
 }
 
+.first-content .fb-btns {
+	display: inline-block;
+}
+
+.first-content .fb-btns a {
+	display: inline-block;
+	background-color: #fff;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #232323;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.first-content .fb-btns a:hover {
+	color: #fff;
+	background-color: transparent;
+}
+
+.botonesPP{
+  padding: 3vw;
+}
+
+.tooltipo {
+    position: relative;
+    display: inline-block;
+
+}
+
+.tooltipo .tooltiptexto {
+    visibility: hidden;
+    width: 218px;
+    background-color: #444c;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 85%;
+    left: 30%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 11px;
+    text-transform: lowercase;
+}
+
+
+
+.tooltipo .tooltiptexto::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltipo:hover .tooltiptexto {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltipo .tooltiptextos {
+    visibility: hidden;
+    width: 120px;
+    background-color: #444c;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 85%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 11px;
+    text-transform: lowercase;
+}
+
+
+
+.tooltipo .tooltiptextos::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltipo:hover .tooltiptextos {
+    visibility: visible;
+    opacity: 1;
+}
+
 .glow{
 text-shadow: 0px 0px 12px #fff;
 
