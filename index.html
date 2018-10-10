@@ -68,21 +68,35 @@
 
         <div class="slides">
           <!-- Home -->
-          <div class="slide" id="1"  data-vide-bg="video/ocean">
+          <div class="slide" id="1"  data-vide-bg="video/home">
             <div class="content first-content">
               <div class="container-fluid">
                       <h2 class="wow fadeInRight">Pablo Carballo</h2>
                       <p><em class="wow fadeInRight" data-wow-delay="0.7s">Animator and designer</em><primero class="profile wow fadeInUp" data-wow-delay="3.4s">, enthusiastic and proactive, my goal is to keep learning </primero><em class="wow fadeInRight" data-wow-delay="1.1s">new technologies</em><primero  class="profile wow fadeInUp" data-wow-delay="3.4s"> and empower my career.</primero> <em class="wow fadeInRight" data-wow-delay="1.5s">Teaching</em>
                         <primero  class="profile wow fadeInUp" data-wow-delay="3.4s"> is a big part of my life. I enjoy to take advantage of my</primero> <em class="wow fadeInRight" data-wow-delay="1.9s">learning skills</em><primero class="profile wow fadeInUp" data-wow-delay="3.4s">.     I expect to </primero><em class="wow fadeInRight" data-wow-delay="2.4s">share experiences and evolve</em><primero  class="profile wow fadeInUp" data-wow-delay="3.4s"> on a nice working environment.</primero></p>
-                      <div class="main-btn"><a href="#2">View More</a></div>
-                      <div class="fb-btn"><a href="mailto:npablow@email.com" target="_blank">email</a></div>
+                        <div class="botonesPP">
+                      <div class="main-btn wow fadeInRight" data-wow-delay="3.7s"><a href="#2">View More</a></div>
+                      <div class="tooltipo">
+                      <div class="fb-btns wow fadeInRight" data-wow-delay="4.1s"><a href="skype:npablow?add"><i class="fab fa-skype"></i> Skype me</a></div>
+                      <p class="tooltiptextos">Add to skype</p></div>
+
+                      <div class="tooltipo">
+                      <div class="fb-btn wow fadeInRight" onclick="myFunction()"  data-wow-delay="4.5s"><a><i class="far fa-envelope"></i> npablow@gmail.com</a></div>
+                      <p class="tooltiptexto"><remover>Copy to clipboard</remover></p>
+                    </div></div>
+                      <input style="position: absolute; left: -9999px;" type="text" value="npablow@gmail.com" id="myInput">
+
+
+
+
+
 
               </div>
             </div>
           </div>
 
           <!-- Portfolio -->
-          <div class="slide" id="2"  data-vide-bg="video/ocean">
+          <div class="slide" id="2"  data-vide-bg="video/tre">
             <div class="content fourth-content">
                 <div class="container-fluid">
                     <div class="row">
@@ -219,7 +233,7 @@
                           </div>
 
           <!-- Formacion -->
-          <div class="slide" id="3" data-vide-bg="video/ocean">
+          <div class="slide" id="3" data-vide-bg="video/cin">
             <div class="content third-content">
                 <div class="container-fluid">
                     <div class="col-md-12">
@@ -257,7 +271,7 @@
 
 
           <!-- Alumnos -->
-          <div class="slide" id="4" data-vide-bg="video/ocean">
+          <div class="slide" id="4" data-vide-bg="video/tre">
             <div class="content fourth-content">
                 <div class="container-fluid">
                     <div class="row">
@@ -436,7 +450,7 @@
           </div>
 
           <!-- Skills -->
-          <div class="slide" id="5" data-vide-bg="video/ocean">
+          <div class="slide" id="5" data-vide-bg="video/do">
 
             <div class="content second-content">
                 <div class="container-fluid">
@@ -758,8 +772,32 @@ $(".fifth").mouseout(function(){
 
     </script>
 
+    <script>
+
+function myFunction() {
 
 
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  document.execCommand("copy");
+
+
+}
+
+$(".fb-btn").mouseover(function(){
+  $("remover").remove("remover");
+  $(".tooltiptexto").append("<remover>Copy to clipboard</remover>");
+        });
+
+        $(".fb-btn").on('click', function(){
+              $("remover").remove("remover");
+              $(".tooltiptexto").append("<remover>Copied: npablow@gmail.com</remover>");
+          });
+
+
+
+
+</script>
 
 
 
