@@ -201,9 +201,9 @@ nav .logo {
 }
 
 nav .logo img {
-	max-width: 100%;
+	max-width: 99%;
 	overflow-y: hidden;
-}
+  }
 
 nav ul {
 	margin-top: 2.5vw;
