@@ -380,7 +380,7 @@ nav a:hover::before {
 .first-content .main-btn a {
 	display: inline-block;
 	border: 2px solid #fff;
-	padding: 8px 15px;
+	padding: 14px 18px;
 	font-size: 13px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -395,16 +395,21 @@ nav a:hover::before {
 }
 
 .first-content .fb-btn a {
-	display: inline-block;
-	background-color: #fff;
-	border: 2px solid #fff;
-	padding: 8px 15px;
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #232323;
-	text-decoration: none;
-	transition: all 0.5s;
+  display: inline-block;
+background-color: #fff;
+border: 2px solid #fff;
+
+font-size: 24px;
+padding-top: 5px;
+padding-bottom: 8px;
+padding-left: 14px;
+padding-right: 14px;
+text-transform: uppercase;
+letter-spacing: 1px;
+vertical-align: sub;
+color: #232323;
+text-decoration: none;
+transition: all 0.5s;
 }
 
 .first-content .fb-btn a:hover {
@@ -417,16 +422,20 @@ nav a:hover::before {
   }
 
 .first-content .fb-btns a {
-	display: inline-block;
-	background-color: #fff;
-	border: 2px solid #fff;
-	padding: 8px 15px;
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #232323;
-	text-decoration: none;
-	transition: all 0.5s;
+  display: inline-block;
+background-color: #fff;
+border: 2px solid #fff;
+font-size: 24px;
+padding-top: 5px;
+padding-bottom: 8px;
+padding-left: 14px;
+padding-right: 14px;
+text-transform: uppercase;
+letter-spacing: 1px;
+vertical-align: sub;
+color: #232323;
+text-decoration: none;
+transition: all 0.5s;
 }
 
 .first-content .fb-btns a:hover {
