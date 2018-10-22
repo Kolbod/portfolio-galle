@@ -456,7 +456,7 @@ transition: all 0.5s;
 
 .tooltipo .tooltiptexto {
     visibility: hidden;
-    width: 218px;
+    width: 276px;
     background-color: #444c;
     color: #fff;
     text-align: center;
@@ -464,7 +464,7 @@ transition: all 0.5s;
     position: absolute;
     z-index: 1;
     bottom: 85%;
-    left: 30%;
+    left: -70%;
     margin-left: -60px;
     opacity: 0;
     transition: opacity 0.3s;
@@ -608,7 +608,7 @@ padding-right: 2vw;
 }
 .second-content .fourth {
 	font-size: 17px;
-  padding-bottom: 47px;
+  padding-bottom: 20px;
   line-height: 23x;
   font-weight: 500;
   padding-right: 2vw;
@@ -831,7 +831,7 @@ margin-bottom: 8px;
 	font-weight: 700;
 	color: #fff;
 	letter-spacing: 0.5px;
-	border-bottom: 2px solid #fff;
+/*	border-bottom: 2px solid #fff; */
 	display: inline-block;
 	padding-bottom: 0.4vw;
     margin-bottom: 0.6vw;
